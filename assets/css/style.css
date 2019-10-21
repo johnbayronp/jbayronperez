@@ -289,16 +289,24 @@ body{
 @media(max-width: 450px){
     #menu, #menu ul {
         line-height: 50px;
-        width: 75%;
+        width: 72%;
         margin-left: 44px;
     }
 }
 
-@media(max-width: 390px){
+@media(max-width: 400px){
     #menu, #menu ul {
         line-height: 50px;
         width: 70%;
         margin-left: 44px;
+    }
+}
+
+@media(max-width: 376px){
+    #menu, #menu ul {
+        line-height: 50px;
+        width: 70%;
+        margin-left: 40px;
     }
 }
 
