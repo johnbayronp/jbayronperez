@@ -263,8 +263,8 @@ body{
     #menu,
     #menu ul{
         line-height: 50px;
-        width: 92%;
-        margin-left:9px;
+        width: 83%;
+        margin-left:23px;
     }
 
     #slider{
@@ -282,6 +282,20 @@ body{
     }
 
     #footer p {
-        font-size:13px;
+        font-size:10px;
+    }
+}
+
+/*Telefonos*/
+@media(max-width:352px){
+    #menu,
+    #menu ul{
+        line-height: 50px;
+        width: 86%;
+        margin-left:19px;
+    }
+
+    #footer p {
+        font-size:10px;
     }
 }
