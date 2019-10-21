@@ -263,7 +263,8 @@ body{
     #menu,
     #menu ul{
         line-height: 50px;
-        width: 95%;
+        width: 92%;
+        margin-left:9px;
     }
 
     #slider{
@@ -281,6 +282,6 @@ body{
     }
 
     #footer p {
-        font-size:14px;
+        font-size:13px;
     }
 }
