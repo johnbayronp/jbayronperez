@@ -286,7 +286,14 @@ body{
     }
 }
 
-/*Telefonos*/
+@media(max-width: 450px){
+    #menu, #menu ul {
+        line-height: 50px;
+        width: 75%;
+        margin-left: 44px;
+    }
+}
+
 @media(max-width:352px){
     #menu,
     #menu ul{
