@@ -294,7 +294,7 @@ body{
     }
 }
 
-@media(max-width: 388px){
+@media(max-width: 390px){
     #menu, #menu ul {
         line-height: 50px;
         width: 70%;
