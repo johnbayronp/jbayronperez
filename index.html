@@ -6,105 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>John Perez - NG</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!--Utilizamos window para decirle que cuando halla cargado todo-->
-    <script type="text/javascript">
-        window.addEventListener("load",function(){
-
-            var template = document.getElementById("article-template");
-            var articles = document.getElementById("articles");
-            for(var i = 1; i<=3; i++){
-
-                var clonado = template.cloneNode(true);
-                clonado.removeAttribute("id");
-
-                var h2 =  clonado.getElementsByTagName("h2")[0];
-                h2.innerHTML = h2.textContent + ' ' + i;
-                articles.appendChild(clonado);
-            }
-        });
-    </script>
 </head>
 <body>
-    <header id="header">
-        <div class="center">
-
-            <!-- LOGO -->
-            <div id="logo">
-                <img src="./assets/img/angular.svg" type="xml" alt="logo">
-                <span id="brand"><strong>John</strong>Perez</span>
-            </div>
-
-            <!-- MENU -->
-            <nav id="menu">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="formulario.html">Formulario</a></li>
-                    <li><a href="#">Pagina1</a></li>
-                    <li><a href="#">Pagina2</a></li>
-                </ul>
-            </nav>
-
-            <!--  Limpiamos lo flotado anteriormente-->
-            <div class="clearfix"></div>
-        </div>
-    </header>
 
     <!--Slider-->
     <div id="slider" class="slider-big">
-            <h1>Desarrollo de aplicaciones { App web } Angular por John Perez</h1>
-            <a href="#" class="btn-white">Ir al Blog</a>
+            <h1>Jhon Perez</h1>
     </div>
 
-    <!-- Contenido -->
-    <div class="center">
-        <!--Contenido de articulos-->
-        <section id="content">
-            <h2 class="subheader">Ultimos Articulos</h2>
+    <!--content-->
+    <div id="content">
+            <nav id="menu">
+                    <ul>
+                        <li><a href="">GitHub:<span class="user"> /Johnbayronp</span></a></li>
+                        <li><a href="">Twitter:<span class="user"> @Johnbayronp</span></a></li>
+                        <li><a href="">Instagram:<span class="user"> @Johnbayronp</span></a></li>
+                    </ul>
+            </nav>
 
-            <!--listado de articulos-->
-            <div id="articles">
-                <article class="article-item" id="article-template">
-                    <div class="image-wrap">
-                        <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/07/25/13/74.jpg" alt="apple">
-                    </div>
-
-                    <h2> Articulo de prueba</h2>
-                    <span class="date">
-                        Hace 5 minutos
-                    </span>
-                    <a href="#">Leer más</a>
-                </article>
-
+            <div id="content-personal">
+                <div class="box-info">  
+                        <h1>¿Acerca de mi?</h1>
+                        <p>Soy tecnologo en electronica industrial de la Universidad de sucre,
+                        Estudiante de ingenieria en automatizacion electronica en la Institucion Tecnologica Metropolitana,
+                        Amante al desarrollo software y hardware. <br>
+                        </p>
+                        <p>
+                        I'm industrial electronics technologist of Universidad de sucre, I'm student automation electronics enginering
+                        of university Institucion Tecnologica Metropolitana, I Love at development software and hadware.
+                        </p>
+                </div>
             </div>
-
-            <!--  Limpiamos lo flotado anteriormente-->
-            <div class="clearfix"></div>
-        </section>
-
-        <!-- Sidebar -->
-        <aside id="sidebar">
-            <!--Crear articulos-->
-            <div id="nav-blog" class="sidebar-item">
-                <h3>Puedes hace esto</h3>
-                <a href="#" class="btn btn-success">Crear articulo</a>
-            </div>
-
-            <!--Buscador de articulos-->
-            <div id="search" class="sidebar-item">
-                <h3>Buscador</h3>
-                <p>Encuentra el articulo que buscas.</p>
-                <form >
-                   <input type="text" name="search" >
-                   <input type="submit" name="submit" value="buscar" class="btn">
-               </form>
-            </div>
-        </aside>
-
-        <!--  Limpiamos lo flotado anteriormente-->
-        <div class="clearfix"></div>
     </div>
+    
+    <!-- clear float-->
+    <div class="clearfix"></div>
 
     <footer id="footer">
         <div class="center">
@@ -113,5 +49,7 @@
             </p>
         </div>
     </footer>
+    
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </body>
 </html>
