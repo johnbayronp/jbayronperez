@@ -294,6 +294,14 @@ body{
     }
 }
 
+@media(max-width: 388px){
+    #menu, #menu ul {
+        line-height: 50px;
+        width: 70%;
+        margin-left: 44px;
+    }
+}
+
 @media(max-width:352px){
     #menu,
     #menu ul{
