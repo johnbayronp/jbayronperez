@@ -110,9 +110,8 @@ body{
 
 #content-personal .box-info{
     width: 100%;
-    background-color:#689e9c2b;
-    border:3px solid #418a81;
-    border-radius: 4px;
+    background-color:white;
+    border-radius: 3%;
 }
 
 
@@ -142,6 +141,10 @@ body{
 #footer p {
     margin: 0px;
     padding: 0px;
+}
+
+.shadow-Card{
+    box-shadow: 9px 5px 2px #0000003d;
 }
 
 .border-round{
