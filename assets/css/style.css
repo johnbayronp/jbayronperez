@@ -10,6 +10,9 @@ body{
     -moz-font-smoothing: antialiased;
     -webkit-osx-font-smoothing: antialiased;
 }
+.space-top{
+    padding-top:25px;
+}
 
 .user{
     color:#848383;
