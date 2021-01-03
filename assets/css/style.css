@@ -1,5 +1,8 @@
-body{
-    background-color:rgba(236, 236, 225, 0.51);
+
+
+.theme-custom{
+
+    background-color:#e8e8e86b;
     text-align: center;
     margin:0px;
     padding:0px;
@@ -10,6 +13,7 @@ body{
     -moz-font-smoothing: antialiased;
     -webkit-osx-font-smoothing: antialiased;
 }
+
 .space-top{
     padding-top:25px;
 }
@@ -127,10 +131,10 @@ body{
 
 #content-personal p{
     width: 100%;
-    text-align: center;
+    text-align: justify;
+    padding:30px;
     font-size:19px;
     padding-bottom:10px;
-    font-family: 'Indie Flower', cursive ,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #footer{
@@ -165,6 +169,7 @@ body{
 
 .work{
     margin: 5px;
+    padding-bottom: 10px;
 }
 .article-item{
     width: 100%;
