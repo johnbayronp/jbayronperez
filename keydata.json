@@ -1,6 +1,4 @@
-[ "apikey":[
-    { "key":"0ef9792d58851e36ea015db03f6ec76c"},
-    { "key":"0ef9792d58851e36ea015db03f6ec76c"}],
-"results":[]
-]
+{
+    "results":[{"key":"0ef9792d58851e36ea015db03f6ec76c"}]
 
+}
