@@ -113,8 +113,7 @@
 }
 
 #content-personal{
-    width: 60%;
-    margin-left:20%;
+    width: 100%;
 }
 
 #content-personal .box-info{
@@ -179,6 +178,10 @@
     padding-bottom:39px;
     padding-top:14px;
     text-align: left;
+}
+
+.titleBox{
+    align-content: left;
 }
 /* RESPONSIVE */
 /*Laptop*/
